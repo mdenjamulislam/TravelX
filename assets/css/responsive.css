@@ -1,0 +1,381 @@
+/*------------------------------------------------------------------------|
+	Theme name: Travel Agency 
+	Author: 
+	Author URI: 
+	Description: 
+	Tags: 
+
+||--------------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------------|
+	[ Table of column ]
+
+	1.0. Extra small devices (phones, 600px and down)
+	2.0. Small devices (portrait tablets and large phones, 600px and up)
+	3.0. Medium devices (landscape tablets, 768px and up)
+    4.0. Medium devices (landscape tablets, 768px and up)
+    5.0. Medium devices (landscape tablets, 768px and up)
+    6.0. Large devices (laptops/desktops, 992px and up)
+    7.0. Extra large devices (large laptops and desktops, 1200px and up)
+    
+||--------------------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------------|
+	1.0. @media only screen and (min-width: 992px) and (max-width: 1200px) 
+||--------------------------------------------------------------------------*/
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    /*----- Common CSS --------*/
+    
+
+
+    /*--------------------------|
+	    Header 
+    ||--------------------------*/
+    #header {
+        margin-top: 25px;
+    }
+
+    /* Navbar */
+
+    nav.navbar  {
+        
+    }
+    .navbar-brand > img.logo {
+        margin-right: 60px;
+    }
+    ul.navbar-nav li.nav-item {
+        margin-right: 40px;
+    }
+    ul.navbar-nav li.nav-item a.nav-link {
+        font-size: 20px;
+    }
+    /*-- navabr button */
+    .nav-button input.login {
+        margin-right: 40px;
+    } 
+
+    /*----------------------------|
+	    Banner/#banner 
+    ||---------------------------*/
+    #banner {
+        margin-top: 30px;
+        margin-bottom: 100px;
+    }
+    .banner-cont {
+        padding-right: 50px;
+    }
+    
+    .banner-btn a {
+        padding: 14px 20px;
+    }
+}
+
+
+/*------------------------------------------------------------------------|
+	2.0. @media only screen and (min-width: 768px) and (max-width: 991px) 
+||--------------------------------------------------------------------------*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px)  {
+   /*----- Common CSS --------*/
+
+    
+    /*--- navbar ---*/ 
+    div#navbarSupportedContent {
+        margin-top: 30px;
+    }
+    ul.navbar-nav li.nav-item {
+        margin-right: 0;
+        margin-top: 10px;
+    }
+    .nav-button input.login {
+        padding: 0;
+    }
+
+    /*--- banner section --*/
+    .banner-cont {
+        padding-right: 20px;
+    }
+    .banner-btn a.discover {
+        margin-bottom: 20px;
+    }
+    #banner {
+        margin-top: 50px;
+    }
+    .banner-feature {
+        margin-top: 20px;
+    }
+
+    /*--- Explore section ---*/
+    .explore-wrap {
+        width: 95%;
+    }
+    .counter-wrap {
+        width: 95%;
+    }
+    /*--- need section ---*/
+    .need-wrap {
+        padding: 0;
+    }
+
+}
+
+
+
+/*------------------------------------------------------------------------|
+	3.0. @media only screen and (max-width: 767px)
+||--------------------------------------------------------------------------*/
+
+@media only screen and (max-width: 767px) {
+
+    /*--- Common css */
+    .section {
+        padding-top: 30px;
+        padding-bottom: 50px;
+    }
+    .section-title h2.title {
+        font-size: 25px;
+    }
+    /*--- banner --*/
+    .banner-cont h2.title {
+        font-size: 32px;
+    }
+    .banner-cont {
+        padding-right: 0;
+    }
+    .banner-feature {
+        margin-top: 20px;
+    }
+    .banner-img > img {
+        width: 98%;
+        height: auto;
+    }
+    /*--- Explore section */
+    .explore-wrap {
+        width: 98%;
+        padding: 30px 30px;
+    }
+    .explore-item {
+        text-align: center;
+        margin-top: 20px;
+    }
+    .explore-button {
+        text-align: center;
+        margin-top: 20px;
+    }
+    .counter-wrap {
+        width: 100%;
+    }
+    .counter-item {
+        padding-left: 10px;
+    }
+
+    /*--- Offer section ----*/
+    .offer-title h2 {
+        font-size: 25px;
+    }
+    .vertical {
+        margin-top: 55px;
+        right: 2%;
+    }
+    /* --- need section --*/
+    #blog .section-title > p.dec {
+        width: 95%;
+    }
+
+    /*  testmonial section */
+    .testmonial-title h2 {
+        font-size: 25px;
+    }
+
+    h2.subscribe-title {
+        font-size: 25px;
+    }
+    
+
+    /* footer */
+    .footer-widget {
+        margin-top: 20px;
+    }
+
+
+/*------------------------------------------------------------------------|
+	4.0. @media only screen and (min-width: 480px) and (max-width: 767px) 
+||--------------------------------------------------------------------------*/
+
+@media only screen and (min-width: 361px) and (max-width: 767px) {
+
+    /* header */
+    #header {
+        margin-top: 30px;
+    }
+    .navbar-brand > img.logo {
+        margin-right: 100px;
+    }
+    ul.navbar-nav {
+        margin-top: 20px;
+    }
+    .nav-button input.login {
+        margin-right: 40px;
+        padding-left: 0;
+    }
+
+    #banner {
+        margin-top: 45px;
+        margin-bottom: 80px;
+    }
+    .banner-btn a {
+        display: block;
+        text-align: center;
+    }
+    /* counter section */
+    .counter-item {
+        text-align: center;
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 44px;
+        padding-bottom: 34px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    /* offer section */
+    #offer {
+        margin-bottom: 60px;
+    }
+    .vertical {
+        margin-top: 80px;
+    }
+    /* need section */
+    #need .section-title p.dec {
+        width: 95%;
+    }
+    
+    .map {
+        margin-top: 20px;
+    }
+    /* subcribe */
+    .section-bg {
+        padding: 60px 0;
+    }
+    form.subscribe-form input[type=email] {
+        width: 90%;
+        margin-bottom: 10px;
+        margin-top: 20px;
+    }
+    /* footer */
+    #footer {
+        margin-top: 60px;
+    }
+    .footer-bg {
+        padding-top: 60px;
+    }
+
+}
+
+
+/*------------------------------------------------------------------------|
+	5.0. @media screen and (max-width: 320px)
+||--------------------------------------------------------------------------*/
+
+@media screen and (max-width: 360px) {
+    .section {
+        padding-top: 30px;
+        padding-bottom: 40px;
+    }
+    .section-title h2.title {
+        font-size: 20px;
+    }
+    input {
+        font-size: 12px;
+    }
+    .button {
+        font-size: 12px;
+        padding: 10px 15px;
+    }
+    /* header */
+    #header {
+        margin-top: 20px;
+    }
+    .navbar-brand > img.logo {
+        margin-right: 50px;
+    }
+    ul.navbar-nav {
+        margin-top: 20px;
+    }
+    .nav-button input.login {
+        margin-right: 30px;
+        padding-left: 0;
+    }
+    /* banner */
+    #banner {
+        margin-top: 20px;
+    }
+    .banner-cont h2.title {
+        font-size: 20px;
+    }
+    .banner-btn {
+        margin-top: 30px;
+    }
+    .banner-btn a {
+        display: block;
+        text-align: center;
+    }
+    .banner-btn a.discover {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    /* counter section */
+    .counter-item {
+        text-align: center;
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 44px;
+        padding-bottom: 34px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    /* offer section */
+    ul.offer_nav {
+        width: 100%;
+    }
+    ul.offer_nav > li > button {
+        padding: 9px 20px;
+    }
+    .vertical {
+        margin-top: 70px;
+    }
+
+    /* need section */
+    #need .section-title p.dec {
+        width: 98%;
+    }
+
+    /* testmonial */
+    .map {
+        margin-top: 20px;
+    }
+
+
+    form.subscribe-form input {
+        padding: 10px 15px;
+    }
+    form.subscribe-form input[type=email] {
+        width: 90%;
+        margin-bottom: 10px;
+    }
+    form.subscribe-form input[type=submit] {
+        padding: 10px 15px;
+    }
+
+    /* footer */
+    .footer-bottom p {
+        text-align: center;
+    }
+    .footer-bottom p.terms {
+        float: none;
+    }
+
+}

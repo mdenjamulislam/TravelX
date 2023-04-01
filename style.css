@@ -1,0 +1,727 @@
+/*------------------------------------------------------------------------|
+	Theme name: Travel Agency 
+	Author: 
+	Author URI: 
+	Description: 
+	Tags: 
+
+||--------------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------------|
+	[ Table of column ]
+
+	1.0. Google font
+	2.0. Common css
+	3.0. Body
+    4.0. Header 
+    5.0. Banner/#banner 
+    6.0. explore
+    7.0. Offer 
+    8.0. Client need
+    9.0. Blog
+    10.0. testmonial
+    11.0. subscribe
+    12.0. Footer
+
+
+||--------------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------------|
+	1.0. Google font  font-family: 'SeroPro';
+||------------------------------------------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+@import url('assets/fonts/stylesheet.css');
+
+/*------------------------------------------------------------------------|
+	2.0. Common css
+||------------------------------------------------------------------------*/
+img {
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+a {
+    color: #FA7436;
+}
+a, a:hover {
+    text-decoration: none;
+}
+input {
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    color: #000000;
+    border: none;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+}
+input:focus, input:active {
+    border: none;
+    outline: 0;
+}
+h5 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #000000;
+}
+/*-- site defult button --*/
+.bg-w5 {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.button {
+    font-family: 'SeroPro';
+    font-size: 17px;
+    font-weight: 500;
+    padding: 14px 33px;
+    color: #ffffff;
+    background-color: #FA7436;
+    border: none;
+    outline: 0;
+    border-radius: 40px;
+
+    transition: all .2s ease;
+}
+.button:focus {
+    outline: 0;
+}
+
+/* section title */
+.section-title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.section-title h2.title {
+    font-family: 'SeroPro';
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+.section-title h2.title span {
+    color: #FA7436;
+}
+.section-title p.dec {
+    margin-bottom: 0;
+    padding: 0;
+}
+
+/* section padding */
+.section {
+    padding-top: 45px;
+    padding-bottom: 100px;
+}
+/*------------------------------------------------------------------------|
+	3.0. Body
+||------------------------------------------------------------------------*/
+body, html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: #0D1D2D;
+    background-color: #F5F5F5;
+    line-height: 20px;
+}
+
+/*------------------------------------------------------------------------|
+	4.0. Header 
+||------------------------------------------------------------------------*/
+#header {
+    margin-top: 45px;
+}
+
+/* Navbar */
+
+nav.navbar  {
+    
+}
+.navbar-brand > img.logo {
+    width: auto;
+    height: auto;
+    margin-right: 186px;
+}
+ul.navbar-nav li.nav-item {
+    margin-right: 40px;
+}
+ul.navbar-nav li.nav-item a.nav-link {
+    font-family: 'SeroPro';
+    font-size: 17px;
+    font-weight: 400;
+    color: #000000;
+
+    -webkit-transition: .3s ease-in-out;
+    -moz-transition: .3s ease-in-out;
+    -ms-transition: .3s ease-in-out;
+    -o-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+ul.navbar-nav li.nav-item a.nav-link:hover {
+    color: #FA7436;
+}
+/*-- navabr button */
+.nav-button input.login {
+    margin-right: 57px;
+    color: #FA7436;
+
+    transition: all .3s ease;
+}
+.nav-button input.login:hover {
+    color: #000000;
+}
+/*------------------------------------------------------------------------|
+	5.0. Banner/#banner 
+||------------------------------------------------------------------------*/
+#banner {
+    margin-top: 70px;
+    margin-bottom: 100px;
+}
+
+.banner-cont {
+    padding-right: 100px;
+}
+.banner-cont h2.title {
+    font-family: 'SeroPro';
+    font-size: 40px;
+    font-weight: 900;
+    color: #0D1D2D;
+}
+.banner-cont h2.title span {
+    color: #FA7436;
+}
+.banner-cont p.description {
+    margin-top: 28px;
+}
+.banner-btn {
+    margin-top: 45px;
+}
+.banner-btn a {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 14px 33px;
+}
+.banner-btn a.discover {
+    border: 1px solid #FA7436;
+    border-radius: 46px;
+    margin-right: 20px;
+    transition: all .2s ease;
+}
+.banner-btn a:hover {
+    color: #000000;
+}
+
+/* feature item */
+.banner-feature {
+    display: grid;
+    position: relative;
+}
+.banner-img {
+    position: relative;
+}
+.banner-img > img {
+    width: auto;
+    height: auto;
+    float: right;
+    position: relative;
+}
+
+/*------------------------------------------------------------------------|
+	6.0. explore
+||------------------------------------------------------------------------*/
+
+#explore {
+    margin-top: 100px;
+    margin-bottom: 45px;
+}
+.explore-wrap {
+    width: 912px;
+    margin: 0 auto;
+    padding: 39px 68px;
+    border-radius: 13px;
+    background-color: #F7F8FC;
+}
+form.explore-form {}
+.explore-item {
+    
+}
+.explore-item:last-child {
+    margin-right: 0;
+}
+.explore-item h4 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    color: #000000;
+    margin-bottom: 11px;
+}
+.explore-item h4 i {
+    color: #FA7436;
+    margin-left: 5px;
+}
+.explore-item input {
+    font-family: 'Poppins', sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    border: none;
+    outline: 0;
+    color: #585858;
+    background: none;
+}
+.explore-item input:focus {
+    border: none;
+    outline: 0;
+}
+
+.explore-button {}
+.explore-button input {
+    border-radius: 13px;
+    outline: 0;
+    border: none;
+}
+/* counter-wrap */
+.counter-wrap {
+    width: 1018px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.counter-item {
+    text-align: left;
+    padding-top: 55px;
+    padding-left: 30px;
+    padding-bottom: 44px;
+    margin-top: 20px;
+    border: 1px solid #F5F5F5;
+    border-radius: 10px;
+    overflow: hidden;
+    
+    transition: all .3s ease;
+}
+.counter-item:hover {
+    border: 1px solid #00000099;
+    
+}
+.counter-item > .icon {}
+.counter-item > .icon img {
+    width: auto;
+    height: auto;
+}
+.counter-item > .counter-cont {
+    margin-top: 9px;
+}
+.counter-item > .counter-cont span {
+    font-size: 14px;
+    color: #585858;
+}
+.counter-item > .counter-cont h5 {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
+/*------------------------------------------------------------------------|
+	7.0. Offer 
+||------------------------------------------------------------------------*/
+
+#offer {
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+
+.offer-title {}
+.offer-title h2 {
+    font-family: 'SeroPro';
+    font-size: 40px;
+    font-weight: 900;
+    color: #0D1D2D;
+    text-align: center;
+    margin-bottom: 41px;
+}
+/*--- Filter list ----*/
+ul.offer_nav  {
+    width: 393px;
+    margin: 0 auto;
+    justify-content: center;
+    list-style: none;
+    padding: 9px 11px;
+    background-color: #F7F8FC;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+ul.offer_nav > li > button {
+    display: inlnie-block;
+    text-align: center;
+    padding: 9px 35px;
+    font-weight: 500;
+    font-size: 13px; 
+    cursor: pointer;
+    border-radius: 18px;
+    position: relative;
+    border: none;
+    background: none;
+
+    -webkit-transition: .3s ease-in-out;
+    -moz-transition: .3s ease-in-out;
+    -ms-transition: .3s ease-in-out;
+    -o-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+ul.offer_nav > li > button:hover{
+    color: #FA7436;
+}
+ul.offer_nav > li > button.active {
+    color: #fff;
+    background-color: #FA7436;
+}
+/* --- if not use button then use this css code for li (for active effect) ---*/
+ul.offer_nav li.is-checked{
+    color: #fff;
+    background-color: #FA7436;
+}
+
+
+/*--- grid-item --- */
+.grid .grid-item{
+    
+}
+.offer-item {
+    padding: 33px 30px;
+    border: 1px;
+    background-color: rgba(255, 255, 255, .5);
+    border-radius: 20px;
+    box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.05);
+    overflow: hidden;
+    margin-top: 20px;
+
+    -webkit-transition: .3s ease-in-out;
+    -moz-transition: .3s ease-in-out;
+    -ms-transition: .3s ease-in-out;
+    -o-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+.offer-item:hover {
+    border-color: #FA7436;
+}
+.grid .grid-item:last-child {
+    margin-right: 0;
+}
+.offer-img {
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.offer-img img {
+    width: 80%;
+    height: auto;
+    float: left;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+.offer-img span.offer-date {
+    
+}
+.vertical {
+    -ms-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+    margin-top: 95px;
+    right: 5%;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    cursor: vertical-text;
+    vertical-align: top;
+    position: absolute;
+    display: block;
+    height: auto;
+}
+.offer-time {
+    display: block;
+}
+.offer-time span {
+    font-size: 9px;
+    font-weight: 400;
+    padding: 5px 15px;
+    border-radius: 22px;
+}
+h4.offer-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 21px;
+    font-weight: 700;
+    color: #000000;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+span.offer-price {
+    margin-top: 10px;
+    display: inline-block;
+}
+.offer-button {
+    padding: 11px 21px;
+    font-size: 12px;
+    right: 30px;
+    border-radius: 8px;
+    float: right;
+}
+
+
+
+
+
+/*------------------------------------------------------------------------|
+	8.0. Client need
+||------------------------------------------------------------------------*/
+#need {}
+
+#need .section-title p.dec {
+    width: 460px;
+    margin: 0 auto;
+}
+
+/*-- Need item --*/
+.need-wrap {
+    padding: 0 8%;
+    margin-top: 32px;
+    overflow: hidden;
+}
+.need-item {
+    padding: 80px 35px 55px 35px;
+    text-align: left;
+    border-radius: 5px;
+    margin-top: 16px;
+}
+.need-item .icon {}
+.need-item .icon i {
+    font-size: 35px;
+    color: #FA7436;
+    font-weight: 700;
+}
+.need-item h5.item-title {
+    font-size: 19px;
+    margin-top: 9px;
+    margin-bottom: 11px;
+}
+.need-item p.item-dec {
+    font-size: 9px;
+    color: #585858;
+}
+
+
+
+/*------------------------------------------------------------------------|
+	9.0. Blog
+||------------------------------------------------------------------------*/
+#blog {
+    background-color: #ffffff;
+}
+#blog .section-title > p.dec {
+    width: 650px;
+    margin: 0 auto;
+}
+#blog .section-title {
+    margin-bottom: 58px;
+}
+
+/*-- Post item --*/
+.post-item {
+    text-align: left;
+    margin-top: 20px;
+}
+.post-thumb {}
+.post-thumb img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 32px;
+}
+.post-item h4.post-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 16px;
+} 
+.post-item p.post-dec {
+    font-size: 12px;
+    margin-bottom: 27px;
+}
+.post-item a.readmore {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #FA7436;
+
+    transition: all .3s ease;
+}
+.post-item a.readmore i {
+    margin-left: 7px;
+}
+.post-item a.readmore:hover {
+    color: #0D1D2D;
+}
+
+/*------------------------------------------------------------------------|
+	10.0. testmonial
+||------------------------------------------------------------------------*/
+#testmonial {
+    background-color: #ffffff;
+}
+
+.testmonial-title {}
+.testmonial-title h5 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.testmonial-title h2 {
+    font-family: 'SeroPro';
+    font-size: 38px;
+    font-weight: 900;
+    color: #000000;
+    margin-bottom: 28px;
+}
+
+/* .testmonial item */
+
+img.client-pro {
+    width: 61px;
+    height: 61px;
+    border-radius: 50%;
+}
+#testmonial .carousel-item p.comment {
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    color: #585858;
+}
+#testmonial .carousel-item p.name {
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    padding: 9px 9px 9px;
+    border-left: 2px solid #1394ED;
+    color: #1394ED;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    display: none;
+}
+.carousel-indicators [data-bs-target] {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #1394ED;
+}
+/*------------------------------------------------------------------------|
+	11.0. subscribe
+||------------------------------------------------------------------------*/
+#subscribe {
+    text-align: center;
+}
+.section-bg {
+    padding: 100px 0;
+    background: url(assets/images/bg/bg.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+h2.subscribe-title {
+    font-family: 'SeroPro';
+    font-size: 37px;
+    font-weight: 700;
+    color: #000000;
+}
+h2.subscribe-title span {
+    color: #FA7436;
+}
+form.subscribe-form {}
+form.subscribe-form input {
+    padding: 19px 28px;
+}
+form.subscribe-form input[type=email] {
+    width: 387px;
+    outline: 0;
+    border: 0;
+}
+form.subscribe-form input[type=submit] {
+    margin-left: 13px;
+    border-radius: 8px;
+    padding: 14px 33px;
+}
+/*------------------------------------------------------------------------|
+	12.0. Footer
+||------------------------------------------------------------------------*/
+#footer {
+    margin-top: 100px;
+    background-color: #F7F8FC;
+}
+.footer-bg {
+    padding-top: 90px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #000000;
+}
+.footer-widget {}
+.footer-widget .footer-logo {
+    width: auto;
+    height: auto;
+    margin-bottom: 18px;
+}
+.footer-widget > p.dec {}
+
+.footer-widget h4.widget-title {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #000000;
+}
+.footer-widget ul {
+    margin: 0;
+    padding: 0;
+}
+.footer-widget ul li {
+    list-style: none;
+    margin-top: 10px;
+}
+.footer-widget ul li a {
+    font-size: 14px;
+    font-weight: 400;
+    color: #585858;
+}
+
+/*---------- Footer bottom -----------*/
+.footer-bottom {
+    padding: 35px 0;
+}
+.footer-bottom p {
+    color: #000000;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+}
+.footer-bottom p.terms {
+    text-align: right;
+    float: right;
+}
+.footer-bottom p span {
+    color: #FA7436;
+    font-weight: bold;
+}
+/*------------------------------------------------------------------------|
+	
+||------------------------------------------------------------------------*/
+
+
+
+/*------------------------------------------------------------------------|
+	
+||------------------------------------------------------------------------*/
+
+
